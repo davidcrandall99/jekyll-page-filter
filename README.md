@@ -8,3 +8,6 @@ This small app assumes the following:
 3. There is an option to sort by date, in which case you would need to assign a date variable to the jekyll header as well.
 
 NOTE: I pulled this and minified this script from another project. If you spot bugs, or have any improvemetns, feel free to fork and contribute.
+
+TO USE THIS:
+Simply drop it into your jekyll site, making sure the above three statements are true, or modify the variables and functions to match your current setup.
