@@ -1,0 +1,17 @@
+---
+permalink: index.html
+layout: main
+title: Product Pages
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+<script src="/app.js"></script>
+
+<div ng-app="filter" ng-controller="filterDisplay">
+	<ul>
+		<li ng-repeat="page in filteredPages">
+			<a href="[[ page.url ]]">[[ page.title ]]</a>
+		</li>
+	</ul>
+
+</div>
